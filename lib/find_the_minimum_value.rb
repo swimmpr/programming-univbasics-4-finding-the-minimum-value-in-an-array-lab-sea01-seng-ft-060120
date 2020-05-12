@@ -5,7 +5,7 @@ def find_min_value(scale)
     if min_value < scale[count]
       min_value = scale[count]
     end
-    count += 1
+    count -= 1
   end
   min_value
 end
